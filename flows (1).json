@@ -1,0 +1,45 @@
+[
+    {
+        "id": "a91f8153.4e786",
+        "type": "ibmiot in",
+        "z": "42b933c3.7e4d3c",
+        "authentication": "apiKey",
+        "apiKey": "1b957dc1.576352",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "18430",
+        "applicationId": "",
+        "deviceType": "smartdevice",
+        "eventType": "+",
+        "commandType": "",
+        "format": "json",
+        "name": "IBM IoT",
+        "service": "registered",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": false,
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": "",
+        "allFormats": "",
+        "qos": 0,
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "deb70350.5ba0e"
+            ]
+        ]
+    },
+    {
+        "id": "1b957dc1.576352",
+        "type": "ibmiot",
+        "name": "Iotsensordata",
+        "keepalive": "60",
+        "serverName": "mcf148.messaging.internetofthings.ibmcloud.com",
+        "cleansession": true,
+        "appId": "",
+        "shared": false
+    }
+]
